@@ -1,6 +1,3 @@
-
-Postman Collection - https://elements.getpostman.com/redirect?entityId=29665367-b3322c39-d995-421c-a9a0-ddd815c0b48d&entityType=collection
-
 The API flow:
 1. There are three pre-created users, one admin user - 'aspire_admin' and two customers - 'aspire_user1' and 'aspire_user2'.
 2. Only admin users have access to /admin APIs.And customers have access to /customer APIs.
@@ -19,10 +16,30 @@ The API flow:
         <img width="958" alt="4" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/93d50d40-983d-4b8f-b1eb-02b34f910b10">
         
         After approving 2 loans, the updated DB:
-        <img width="1275" alt="5" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/5554e4aa-77ef-430d-a3b5-05745e193866">
+        <img width="1275" alt="5" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/a9953ff0-777a-4cb8-922c-5081aec8307d">
 
-6. Authenticated users can view their loans. The loans are retrieved based on the user, hence only their own loans are visible.
+
+7. Authenticated users can view their loans. The loans are retrieved based on the user, hence only their own loans are visible.
         The request and response:
         <img width="958" alt="6" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/00314786-ce2b-40ca-b620-19817a0ebab2">
 
-7. Customers can pay back the loans based on a weekly payback schedule. 
+8. Customers can pay back the loans based on a weekly payback schedule. The payment status will change to 'PAID' for all the repayments as     soon as payment is successful. Once all the repayments are done, the loan will also move to the 'PAID' state.
+    The payment can only be made for approved loans.
+    The current state of DB:
+    <img width="1270" alt="7" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/5b5a2da2-5780-47fc-ab72-51dc47fd772d">
+
+    Now, we will pay the first repayment of loan_id:1.
+    Payment is only allowed for authenticated users, for their own loans. The user is not allowed to pay for someone else's loan.
+    
+    The request and response:
+    <img width="953" alt="8" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/cc7ce3ff-e3c3-4dfc-b371-0ee3ddf96913">
+
+    The repayment state is updated to 'PAID'
+    <img width="1240" alt="9" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/7a556074-2000-45d8-b585-89575fae597f">
+
+    Similarly, make the remaining payments. When the last repayment is completed, the Loan status is changed to 'PAID'.
+    <img width="1274" alt="10" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/e4eded75-8d5f-4b06-bd06-8a3104d4506b">
+
+9. Postman Collection - https://elements.getpostman.com/redirect?entityId=29665367-b3322c39-d995-421c-a9a0-ddd815c0b48d&entityType=collection
+
+
