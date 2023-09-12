@@ -15,19 +15,15 @@ The API flow:
        The request and response:
         <img width="958" alt="4" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/1f5768d9-e14a-4fbf-b2e4-49459ab090e8">
 
-
    After approving 2 loans, updated DB-
-
    <img width="1270" alt="11" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/b6e7a12f-3d4a-4ec1-97ed-74d8c30eeeb3">
 
 
-
-
-7. Authenticated users can view their loans. The loans are retrieved based on the user, hence only their own loans are visible.
+6. Authenticated users can view their loans. The loans are retrieved based on the user, hence only their own loans are visible.
         The request and response:
         <img width="958" alt="6" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/00314786-ce2b-40ca-b620-19817a0ebab2">
 
-8. Customers can pay back the loans based on a weekly payback schedule. The payment status will change to 'PAID' for all the repayments as     soon as payment is successful. Once all the repayments are done, the loan will also move to the 'PAID' state.
+7. Customers can pay back the loans based on a weekly payback schedule. The payment status will change to 'PAID' for all the repayments as     soon as payment is successful. Once all the repayments are done, the loan will also move to the 'PAID' state.
     The payment can only be made for approved loans.
     The current state of DB:
     <img width="1270" alt="7" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/5b5a2da2-5780-47fc-ab72-51dc47fd772d">
@@ -44,6 +40,6 @@ The API flow:
     Similarly, make the remaining payments. When the last repayment is completed, the Loan status is changed to 'PAID'.
     <img width="1274" alt="10" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/e4eded75-8d5f-4b06-bd06-8a3104d4506b">
 
-9. Postman Collection - https://elements.getpostman.com/redirect?entityId=29665367-b3322c39-d995-421c-a9a0-ddd815c0b48d&entityType=collection
+8. Postman Collection - https://elements.getpostman.com/redirect?entityId=29665367-b3322c39-d995-421c-a9a0-ddd815c0b48d&entityType=collection
 
 
