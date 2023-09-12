@@ -16,7 +16,9 @@ The API flow:
         <img width="958" alt="4" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/93d50d40-983d-4b8f-b1eb-02b34f910b10">
 
         After approving 2 loans, updated DB-
-        <img width="1275" alt="5" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/61aa4433-e9c4-4ea0-91de-d7952aed6802">
+
+        <img width="1270" alt="11" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/b6e7a12f-3d4a-4ec1-97ed-74d8c30eeeb3">
+
 
 
 
