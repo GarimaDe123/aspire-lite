@@ -23,7 +23,8 @@ The code flow:
 2. Only admin user have access to /admin APIs.
 3. Firstly, we call the /customer/loan/create API.
     We select Basic Auth, and pass username, password. 
-     <img width="949" alt="image" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/1d0b0186-c121-41ed-9083-243224087c28">
+     <img width="949" alt="Screenshot 2023-09-12 084245" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/0212f10b-1f0d-4650-ab73-6331eacc7ae0">
+
 
 4.
 
