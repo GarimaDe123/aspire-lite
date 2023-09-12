@@ -13,11 +13,12 @@ The API flow:
    <img width="1280" alt="3" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/869e9a40-e4e1-49be-9c77-4289afff1f50">
 5. Admin users can now approve the loan and set the status as 'APPROVED'. The admin approves 
        The request and response:
-        <img width="958" alt="4" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/93d50d40-983d-4b8f-b1eb-02b34f910b10">
+        <img width="958" alt="4" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/1f5768d9-e14a-4fbf-b2e4-49459ab090e8">
 
-        After approving 2 loans, updated DB-
 
-        <img width="1270" alt="11" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/b6e7a12f-3d4a-4ec1-97ed-74d8c30eeeb3">
+   After approving 2 loans, updated DB-
+
+   <img width="1270" alt="11" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/b6e7a12f-3d4a-4ec1-97ed-74d8c30eeeb3">
 
 
 
