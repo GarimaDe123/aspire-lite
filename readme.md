@@ -14,10 +14,10 @@ The API flow:
 5. Admin users can now approve the loan and set the status as 'APPROVED'. The admin approves 
        The request and response:
         <img width="958" alt="4" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/93d50d40-983d-4b8f-b1eb-02b34f910b10">
-        
-        After approving 2 loans, the updated DB
 
-        <img width="1275" alt="5" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/a9953ff0-777a-4cb8-922c-5081aec8307d">
+        After approving 2 loans, updated DB-
+        <img width="1275" alt="5" src="https://github.com/GarimaDe123/aspire-lite/assets/144749043/61aa4433-e9c4-4ea0-91de-d7952aed6802">
+
 
 
 7. Authenticated users can view their loans. The loans are retrieved based on the user, hence only their own loans are visible.
